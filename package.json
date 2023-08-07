@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^12.17.3",
+    "cypress-each": "^1.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "desktop-us": "npx cypress open --config-file cypress-desktop-us.config.js",
+    "mobile-us": "npx cypress open --config-file cypress-mobile-us.config.js",
+    "desktop-au": "npx cypress open --config-file cypress-desktop-au.config.js",
+    "mobile-au": "npx cypress open --config-file cypress-mobile-au.config.js"
+  }
+}
